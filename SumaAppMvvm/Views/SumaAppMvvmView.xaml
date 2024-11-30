@@ -13,11 +13,13 @@
             <Label Text="Ingrese el primer número" />
             <Entry Text="{Binding B}" Keyboard="Numeric" />
 
-            <Label Text="RESULTADO:" />
-            <Entry Text="{Binding Suma}" IsReadOnly="True" />
+            <Label Text="Ingrese el primer número" />
+            <Entry Text="{Binding Suma}" Keyboard="Numeric" />
 
             <Button Text="Calcular" Command="{Binding CalcularCommand}" Background="YellowGreen" />
             <Button Text="Limpiar" Command="{Binding LimpiarCommand}" Background="DarkBlue" />
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
